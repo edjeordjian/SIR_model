@@ -6,7 +6,7 @@ import numpy as np
 def plot_sir(x, S, I, R, x0, x1, y0, y1, dis_x, dis_y, title):
     grafico, ax = plt.subplots(figsize = (12, 12));
 
-    plt.xlabel("Time", fontsize = 16);
+    plt.xlabel("Days", fontsize = 16);
     plt.ylabel("People", fontsize = 16);
 
     plt.title(title, fontsize = 25)
